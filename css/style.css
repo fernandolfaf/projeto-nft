@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+
+body {
+    background-color: var(--neutral-dark);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    max-width: 320px;
+    background-color: var(--neutral-medium);
+    border-radius: 15px;
+    padding: 20px;
+
+
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+
+
+
+
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+
+.card .title-link .title {
+    font-size: 22px;
+    color: white;
+    margin: 25px 0 20px;
+    font-weight: 400;
+
+
+}
+
+
+
+
+.card .title-link .title:hover{
+color:var(--primary-medium);
+
+}
+.sobre {
+    font-size: 18px;
+    color: var(--primary-soft);
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preco {
+    display: flex;
+
+
+}
+
+.diaria {
+    display: flex;
+}
+
+.info .preco {
+    color: var(--primary-medium);
+    margin-bottom: 20px;
+}
+
+
+.info .diaria {
+    color: var(--primary-soft);
+}
+
+.info .preco::before {
+    content: "";
+    background-image: url(../src/img/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    margin-right: 5px;
+
+
+}
+
+.info .diaria::before {
+    content: "";
+    background-image: url(../src/img/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.criador {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--primary-soft);
+    padding-top: 20px;
+}
+
+.criador img {
+    max-width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.criador p {
+    color: var(--primary-soft);
+
+}
+
+.criador p a {
+    color: white;
+}
+
+.criador .autor:hover a{
+   color:  var(--primary-medium);
+}
